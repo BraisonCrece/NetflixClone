@@ -1,0 +1,69 @@
+.
+├── assets
+│   ├── images
+│   │   ├── campana.svg
+│   │   ├── logo-120.jpg
+│   │   ├── logo-160.jpg
+│   │   ├── logo-350.jpg
+│   │   ├── logo.jpg
+│   │   ├── menu-hamburgesa.svg
+│   │   ├── movie-01.jpg
+│   │   ├── movie-02.webp
+│   │   ├── movie-03.webp
+│   │   ├── movie-04.webp
+│   │   ├── movie-05.webp
+│   │   ├── movie-06.jpg
+│   │   ├── movie-07.webp
+│   │   ├── movie-08.webp
+│   │   ├── movie-09.jpg
+│   │   ├── movie-10.webp
+│   │   ├── movie-11.webp
+│   │   ├── movie-12.webp
+│   │   ├── movie-13.webp
+│   │   ├── movie-14.webp
+│   │   ├── movie-15.webp
+│   │   ├── movie-16.jpg
+│   │   ├── movie-17.jpg
+│   │   ├── movie-18.jpg
+│   │   ├── movie-19.jpg
+│   │   ├── movie-20.jpg
+│   │   ├── movie-21.webp
+│   │   ├── movie-22.jpg
+│   │   ├── movie-23.jpg
+│   │   ├── movie-24.jpg
+│   │   ├── movie-25.webp
+│   │   ├── movie-26.webp
+│   │   ├── movie-27.webp
+│   │   ├── movie-28.jpg
+│   │   ├── movie-29.jpg
+│   │   ├── movie-30.webp
+│   │   ├── movie-31.webp
+│   │   ├── movie-32.jpg
+│   │   ├── movie-33.jpg
+│   │   ├── movie-34.jpg
+│   │   ├── movie-35.webp
+│   │   ├── movie-36.webp
+│   │   ├── movie-37.webp
+│   │   ├── movie-38.jpg
+│   │   └── README.md
+│   └── styles
+│       ├── global.css
+│       ├── global.css.map
+│       ├── global.scss
+│       └── modules
+│           ├── desktop.css
+│           ├── desktop.css.map
+│           ├── desktop.scss
+│           ├── index.css
+│           ├── index.css.map
+│           ├── index.scss
+│           ├── mobile.css
+│           ├── mobile.css.map
+│           └── mobile.scss
+├── index.html
+├── instructions
+│   ├── UD8. Netflix.pdf
+│   └── UD8-Netflix.mp4
+└── orientation.txt
+
+5 directories, 61 files

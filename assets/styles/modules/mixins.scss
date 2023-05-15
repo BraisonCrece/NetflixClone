@@ -1,0 +1,21 @@
+$red-netflix: rgba(255, 62, 62, 0.696);
+@mixin flex($wrap: wrap, $direction: row, $justify: center, $align: center, $gap: 0rem){
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../../fonts/bebas/BebasNeue-Regular.woff2') format('woff2'),
+         url('../../fonts/bebas/BebasNeue-Regular.woff') format('woff'),
+         url('../../fonts/bebas/BebasNeue-Regular.eot') format('eot'),
+         url('../../fonts/bebas/BebasNeue-Regular.otf') format('otf'),
+         url('../../fonts/bebas/BebasNeue-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("../../fonts/bebas/BebasNeue-Regular.woff2") format("woff2"), url("../../fonts/bebas/BebasNeue-Regular.woff") format("woff"), url("../../fonts/bebas/BebasNeue-Regular.eot") format("eot"), url("../../fonts/bebas/BebasNeue-Regular.otf") format("otf"), url("../../fonts/bebas/BebasNeue-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+}
+nav a img {
+  width: 10em;
+  margin-left: 1.25em;
+}
+nav .translateX {
+  transform: translateX(-100%);
+}
+nav .hamburguer {
+  border: none;
+  outline: none;
+  margin-right: 1.25em;
+  background-color: transparent;
+  z-index: 5;
+}
+nav .hamburguer img {
+  width: 3rem;
+}
+nav .menu {
+  position: absolute;
+  inset: 0;
+  padding-top: 2rem;
+  transition: transform 800ms ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+  background-color: rgba(255, 62, 62, 0.696);
+}
+nav .menu li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Bebas", sans-serif;
+  color: white;
+}
+nav .menu .nav-icon {
+  width: 1em;
+  margin-left: 0;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+}/*# sourceMappingURL=global.css.map */

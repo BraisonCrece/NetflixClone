@@ -1,0 +1,50 @@
+@use 'mixins';
+
+$main-bg-color: black;
+
+body {
+    background-color: $main-bg-color;
+}
+
+nav {
+    @include mixins.flex($justify: space-between);
+    a img {
+        width: 10em;
+        margin-left: 1.25em;
+    }
+    .translateX {
+        transform: translateX(-100%);
+    }
+    .hamburguer {
+        border: none;
+        outline: none;
+        margin-right: 1.25em;
+        background-color: transparent;
+        z-index: 5;
+        img {
+            width: 3rem;
+        }
+    }
+    .menu {
+        position: absolute;
+        inset: 0;
+        padding-top: 2rem;
+        transition: transform 800ms ease-in-out;
+
+        @include mixins.flex($direction: column, $justify: start, $gap: 3rem);
+        list-style: none;
+        background-color: mixins.$red-netflix;
+        li a {
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: 'Bebas', sans-serif;
+            color: white;
+        }
+        .nav-icon {
+            width: 1em;
+            margin-left: 0;
+        }
+    }
+
+
+}

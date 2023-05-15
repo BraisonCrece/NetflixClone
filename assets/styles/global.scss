@@ -1,0 +1,20 @@
+@use 'modules/mobile';
+@forward 'modules/mobile';
+@use 'modules/desktop';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+}
+
+
+@media (min-width: 736px) {
+
+}
